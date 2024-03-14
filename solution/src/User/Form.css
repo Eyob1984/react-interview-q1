@@ -1,0 +1,68 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0; 
+}
+
+.container {
+  width: 80%; 
+}
+
+form {
+  margin-bottom: 20px;
+}
+label {
+  margin-left: 10px;
+}
+input[type='text'] option {
+  padding: 10px;
+  font-size: 16px;
+}
+button {
+  margin-left: 25px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.btn {
+  display: block;
+}
+
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%; 
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin-bottom: 5px;
+  }
+
+  input[type='text'],
+  select {
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  button {
+    width: 100%;
+    display: block;
+    margin-left: 15px;
+  }
+}
